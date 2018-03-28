@@ -1,53 +1,8 @@
-/*логинка*/
-
-// var login = prompt ('Введите логин');
-// if (login === 'admin') {
-// 	var pass = prompt ('Введите пароль');
-// 		if (pass === 'admin') {
-// 		alert ('О, админ пришел :)')
-// 		} else {
-// 		alert ('Я тебя не знаю. ๏̯͡๏ ')
-// 		}
-// } else if  (login === 'user') {
-// 	var passAd = prompt ('Введите пароль');
-// 		if (pass === 'user') {
-// 		alert ('Привет, Юзер!')
-// 		} else {
-// 		alert ('Я тебя не знаю. ๏̯͡๏ ')
-// 		}
-// } else {
-// 	alert ('Ну проходи раз зашел');
-//     };
-
-// slider
-
-// var a = ["01.jpg", "02.jpg", "03.jpg"];
-// let sliderIndex = 0;
-// /*назад*/
-// document.getElementById("sliderPrev").onclick = function() {
-// sliderIndex --;
-// if(sliderIndex < 0 ) {
-// sliderIndex = a.length - 1;
-// }
-// document.getElementById("sliderPic").innerHTML = '<img src="img/' + a[sliderIndex] + '">';
-// console.log(THERE);
-// };
-// /*вперед*/
-// document.getElementById("sliderNext").onclick = function() {
-// sliderIndex ++;
-// if(sliderIndex == a.length) {
-// sliderIndex = 0;
-// }
-// document.getElementById("sliderPic").innerHTML = '<img src="img/' + a[sliderIndex] + '">';
-// console.log(THERE);
-// };
-//
-// //////
 var sliderElemMass = ["01", "02", "03"];
 
 var sliderElem = document.getElementsByClassName("radioButtons");
 var sliderButtons = document.getElementsByClassName("sliderSome");
-// console.log(dd);
+
 document.addEventListener('DOMContentLoaded', () => {
 
   for (var i = 0; i < sliderElem.length; i++) {
@@ -87,7 +42,3 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   };
 });
-
-// форма
-// var bygaga = document.getElementById('Forms');
-// for
