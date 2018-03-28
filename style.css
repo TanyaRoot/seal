@@ -1,0 +1,295 @@
+ @import url('https://fonts.googleapis.com/css?family=Poppins');
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ body {
+   font-family: 'Poppins', serif;
+ }
+
+ .header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   width: 100%;
+   display: flex;
+   background-color: yellow;
+   align-items: center;
+   line-height: 0;
+ }
+
+ .logo {}
+
+ .logo img {
+   width: 80px;
+   margin: 10px;
+ }
+
+ .sitebar {
+   width: 100%;
+ }
+
+ .sitebarList {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .sitebarList li {}
+
+ .sitebarList li a {
+   text-decoration: none;
+   color: #383838;
+ }
+
+ .container {
+   background-color: gray;
+   max-width: 950px;
+   margin: 0 auto;
+   padding-top: 100px;
+   height: 2500px;
+ }
+
+ .slider {
+   max-height: 430px;
+   max-width: 950px;
+   margin: 0 auto;
+   position: relative;
+   text-align: center;
+ }
+
+ .slider img {
+   max-height: 430px;
+ }
+
+ .sliderSome {
+   position: absolute;
+   width: 100px;
+   height: 100%;
+   outline: 1px solid black;
+   top: 0px;
+   background-color: black;
+   opacity: 0.2;
+   cursor: pointer;
+ }
+
+ #sliderNext {
+   right: 0px;
+ }
+
+ .sliderRadio {
+   position: absolute;
+   bottom: 10px;
+   left: 45%;
+ }
+
+ .box1 {
+   min-height: 400px;
+   display: flex;
+ }
+
+ .box1col1 {
+   min-width: 250px;
+   background-image: url('img/04.jpg');
+   background-size: cover;
+   background-position: 50%;
+ }
+
+ .box2col2 {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+
+.box2col2 div {
+  height: 200px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+ .box2col2pic1 {
+
+   background-image: url(img/05.jpg);
+
+ }
+
+ .box2col2pic2 {
+
+   background-image: url(img/06.jpg);
+
+ }
+
+ .box2 {
+
+ }
+
+ .box2bigKilkaBox {
+   min-height: 400px;
+   display: flex;
+ }
+
+ .box2KilkaBox {
+   /*height: 200px;*/
+   width: 700px;
+   outline: 1px solid black;
+   background-color: white;
+   display: flex;
+ }
+
+ .box2Text {
+   width: 100px;
+   /*height: 200px;*/
+   display: flex;
+   border: 1px solid black;
+   background-color: gray;
+ }
+
+ .box2TextFlex {
+   display: flex;
+ }
+
+ .box2TextRotate {
+   transform: rotate(-90deg);
+   margin: auto;
+ }
+
+ .inBox {
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   overflow-x: hidden;
+ }
+
+ .box2PicRigth {
+   min-width: 250px;
+   background-image: url('img/07.jpg');
+   background-size: cover;
+   background-position: 50%;
+ }
+
+ .box2bigSlider {
+   height: 370px;
+   background-color: green;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .box2Slider {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .box2pic {
+   width: 290px;
+   height: 290px;
+   background-color: yellow;
+   margin-top: 30px;
+ }
+
+ #box2pic1 {
+   background-image: url('img/08.jpg');
+   background-size: cover;
+   background-position: 50%;
+ }
+
+ #box2pic2 {
+   background-image: url('img/09.jpg');
+   background-size: cover;
+   background-position: 50%;
+ }
+
+ #box2pic3 {
+   background-image: url('img/10.jpg');
+   background-size: cover;
+   background-position: 50%;
+ }
+
+ .box2sliderRadio {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+ }
+
+ .box3 {
+   min-height: 500px;
+   background-image: url('img/11.jpg');
+   background-size: cover;
+   background-position: 50%;
+   background-attachment: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #fish {
+   width: 150px;
+ }
+
+ /*form*/
+
+ .box4 {
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .footer {
+   min-height: 200px;
+   display: flex;
+   justify-content: space-around;
+   background-color: grey;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 30px;
+ }
+ .footer ul {
+   list-style-type: none;
+ }
+.socIn {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.socIn img {
+  width: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+input:required:invalid, input:focus:invalid {
+  /* insert your own styles for invalid form input */
+  border: 1px solid red;
+}
+input:required:valid {
+  /* insert your own styles for valid form input */
+  border: 1px solid green;
+}
+
+
+ @media (max-width: 510px) {
+   .sitebarList {
+     display: none;
+   }
+ }
+
+ #box2 {
+   padding-top: 100px;
+ }
+
+
+/**/
+#box2pic1 {
+  /* display: block; */
+  opacity: 1;
+}
+.box2pic {
+  opacity: 0;
+  /* display: none; */
+}

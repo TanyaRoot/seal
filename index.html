@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>White Seal</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="some.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <!-- фиксированный -->
+  <div class="header">
+    <!-- логотяпчик -->
+    <div class="logo">
+      <!-- кликабельный - якорь - вверх -->
+      <a href="#"><img src="img/logo.png" alt="logo" id="top"></a>
+    </div>
+    <!-- сайтбар - по горизонтали -->
+    <!-- навесить якори ссылки -->
+    <div class="sitebar">
+      <ul class="sitebarList">
+        <li><a href="#box1">ABOUT</a></li>
+        <li><a href="#box2">BLOG</a></li>
+        <li><a href="#box3">GALLERY</a></li>
+        <li><a href="#box4">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- slider -->
+    <div class="slider">
+      <div class="sliderPic" id="sliderPic"><img src="img/01.jpg"></div>
+      <!-- блоки слева и справа - на переключение - затемнение на ховере -
+  добавить Джс -->
+      <div class="sliderSome" id="sliderPrev"> </div>
+      <div class="sliderSome" id="sliderNext"> </div>
+      <!-- точки переключения - поверх картинки, поцентру снизу -->
+      <div class="sliderRadio">
+        <input class="radioButtons" type="radio" name="sliderpic" value="0" checked>
+        <input class="radioButtons" type="radio" name="sliderpic" value="1">
+        <input class="radioButtons" type="radio" name="sliderpic" value="2">
+      </div>
+    </div>
+
+
+    <!-- box1 -->
+    <!-- якорь -->
+
+    <div class="box1" id="box1">
+      <div class="box1col1"></div>
+      <!-- картинка1 - 250пикс - зумится -->
+      <div class="box2col2">
+        <div class="box2col2pic1"></div>
+        <!-- картинка1 - гифка - масштабирование-->
+        <div class="box2col2pic2"></div>
+        <!-- картинка2 - масштабирование -->
+      </div>
+    </div>
+
+
+    <a href="" id="box2"></a>
+    <!-- box2 -->
+    <!-- якорь -->
+    <div class="box2" id="box222">
+      <!-- блок один -->
+      <!-- 1.параграф - текст вертикально по блоку -->
+      <!-- ссылка -->
+      <!-- параграф - текст -->
+      <div class="box2bigKilkaBox">
+        <div class="box2KilkaBox">
+
+          <div class="box2Text">
+            <div class="box2TextFlex">
+              <div class="box2TextRotate">По&nbspвертикали</div>
+            </div>
+          </div>
+
+          <div class="inBox">
+            <a href="https://www.youtube.com/watch?v=AxTRf16XDwI" target="_blank">Посмотреть на тюленьчиков</a>
+            <p>Когда я несу бред, я выношу его горячим, с ягодами и тюленями, которые танцуют самбо с совой, которая пытается заварить полный чайник гречки, но ничего не получается, потому что с таким характером трудно подобрать обои для спальни.</p>
+          </div>
+
+        </div>
+        <!-- картинка справа -->
+        <div class="box2PicRigth"> </div>
+      </div>
+
+
+
+      <!-- три картинки внизу -->
+      <div class="box2bigSlider">
+
+        <div class="box2Slider">
+          <div class="box2pic" id="box2pic1"> </div>
+          <div class="box2pic" id="box2pic2"> </div>
+          <div class="box2pic" id="box2pic3"> </div>
+        </div>
+
+        <!-- точки - включалки картинок -->
+        <div class="box2sliderRadio">
+          <input class="radioButtons2" type="radio" name="box2SliderPic" value="1" id="lol1" checked>
+          <input class="radioButtons2" type="radio" name="box2SliderPic" value="2" id="lol2">
+          <input class="radioButtons2" type="radio" name="box2SliderPic" value="3" id="lol3">
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- box3 -->
+    <!-- якорь -->
+    <!-- картинка фон-фикс -->
+    <div class="box3" id="box3">
+      <div class="box3FishPic"><img src="img/12.png" id="fish"></div>
+    </div>
+
+
+
+
+    <!-- box4 -->
+    <!-- якорь -->
+    <!-- форма, три поля, кнопка -->
+    <div class="box4" id="box4">
+      <h3>Захотел поговорить с нами о тюленях?</h3>
+
+
+
+
+      <form id="FormS" name="FormS" method="post" action="">
+
+        <label for="name">Как вас зовут?</label><br>
+        <input type="text" id="name" name="name" form="data" required
+        placeholder="Вася"><br>
+
+        <label for="age">Сколько вам лет?</label><br>
+        <input type="number" id="age" name="age" form="data" required
+        placeholder="23"><br>
+
+        <label for="email">А сюда впишите свою почту.</label><br>
+        <input type="email" id="email" name="email" form="data"
+        placeholder="kingOfTheSeals@ya.com" required><br>
+
+        <input type="submit" value="Отправить" form="data">
+
+
+
+      </form>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+      <ul class="listOne">
+        <li><h1>что-то</h1></li>
+        <li>кто-то</li>
+        <li>там</li>
+        <li>и вот там</li>
+        <li>везде</li>
+        <li>ну да</li>
+      </ul>
+
+      <ul class="listTwo">
+        <li><h1>11111</h1></li>
+        <li>22222</li>
+        <li>33333</li>
+        <li>44444</li>
+        <li>55555</li>
+        <li>66666</li>
+      </ul>
+
+
+        <!-- <ul class="soc">
+          <li><h1>Социальность</h1></li>
+          <li><img src="icon/facebook.svg" alt="fb"></li>
+          <li><img src="icon/googleplus.svg" alt="g+"></li>
+          <li><img src="icon/instagram.svg" alt="ins"></li>
+          <li><img src="icon/vk.svg" alt=""></li>
+        </ul> -->
+
+    <div class="soc1">
+      <h1>Социальность</h1>
+      <div>
+        <ul class="socIn">
+          <li><img src="icon/facebook.svg" alt="fb"></li>
+          <li><img src="icon/googleplus.svg" alt="g+"></li>
+          <li><img src="icon/instagram.svg" alt="ins"></li>
+          <li><img src="icon/vk.svg" alt=""></li>
+        </ul>
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
